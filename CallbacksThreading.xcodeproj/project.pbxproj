@@ -12,6 +12,8 @@
 		47C5B22F20E382FD0012ECB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47C5B22D20E382FD0012ECB2 /* Main.storyboard */; };
 		47C5B23120E382FD0012ECB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47C5B23020E382FD0012ECB2 /* Assets.xcassets */; };
 		47C5B23420E382FD0012ECB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47C5B23220E382FD0012ECB2 /* LaunchScreen.storyboard */; };
+		47C5B23E20E38E320012ECB2 /* someJSON.txt in Resources */ = {isa = PBXBuildFile; fileRef = 47C5B23D20E38E320012ECB2 /* someJSON.txt */; };
+		47C5B24020E39BDE0012ECB2 /* GroupDispatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C5B23F20E39BDE0012ECB2 /* GroupDispatchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		47C5B23020E382FD0012ECB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47C5B23320E382FD0012ECB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47C5B23520E382FD0012ECB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47C5B23D20E38E320012ECB2 /* someJSON.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = someJSON.txt; path = ../../../someJSON.txt; sourceTree = "<group>"; };
+		47C5B23F20E39BDE0012ECB2 /* GroupDispatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDispatchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 			children = (
 				47C5B22920E382FD0012ECB2 /* AppDelegate.swift */,
 				47C5B22B20E382FD0012ECB2 /* ViewController.swift */,
+				47C5B23F20E39BDE0012ECB2 /* GroupDispatchViewController.swift */,
 				47C5B22D20E382FD0012ECB2 /* Main.storyboard */,
 				47C5B23020E382FD0012ECB2 /* Assets.xcassets */,
 				47C5B23220E382FD0012ECB2 /* LaunchScreen.storyboard */,
+				47C5B23D20E38E320012ECB2 /* someJSON.txt */,
 				47C5B23520E382FD0012ECB2 /* Info.plist */,
 			);
 			path = CallbacksThreading;
@@ -123,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47C5B23E20E38E320012ECB2 /* someJSON.txt in Resources */,
 				47C5B23420E382FD0012ECB2 /* LaunchScreen.storyboard in Resources */,
 				47C5B23120E382FD0012ECB2 /* Assets.xcassets in Resources */,
 				47C5B22F20E382FD0012ECB2 /* Main.storyboard in Resources */,
@@ -137,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47C5B22C20E382FD0012ECB2 /* ViewController.swift in Sources */,
+				47C5B24020E39BDE0012ECB2 /* GroupDispatchViewController.swift in Sources */,
 				47C5B22A20E382FD0012ECB2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
